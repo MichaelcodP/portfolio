@@ -504,6 +504,11 @@ h6 {
   display: grid;
   grid-template-columns: repeat(4,1fr)
 }
+.item-sellers {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 18.8125rem
+}
 .item-sellers__picture {
   overflow: hidden;
   aspect-ratio: 300/278
@@ -522,7 +527,8 @@ h6 {
   align-items: center
 }
 .item-sellers__about {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   flex-grow: 1
 }
 .item-sellers__name {
