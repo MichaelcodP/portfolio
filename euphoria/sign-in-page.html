@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Sign In Page</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20250307120027">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="header__logo">
+					<img src="img/logo.svg" alt="Logo">
+				</a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="#" class="menu__link menu__link--active">Shop</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Men</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Women</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Combos</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Joggers</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<form action="#" class="header__search search-form">
+					<input class="search-form__input" placeholder="Search" type="text">
+					<button class="search-form__button _icon-search"></button>
+				</form>
+				<div class="header__action action-header">
+					<a href="_catalog.html" class="action-header__item _icon-favorite"></a>
+					<a href="account.html" class="action-header__item _icon-user"></a>
+					<a href="cart.html" class="action-header__item _icon-cart"></a>
+				</div>
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__sign-in sign-in">
+				<div class="sign-in__container">
+					<img class="sign-in__image" src="img/sign/image.webp" alt="Image">
+					<div class="sign-in__body">
+						<h1 class="sign-in__title">Sign In Page</h1>
+						<div class="sign-in__links">
+							<a href="#" class="sign-in__link">
+								<svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+									<path d="M20.5002 10.2219C20.5002 9.39973 20.4321 8.79973 20.2848 8.17752H10.7041V11.8886H16.3277C16.2144 12.8108 15.6022 14.1997 14.2416 15.133L14.2225 15.2572L17.2517 17.557L17.4616 17.5775C19.389 15.833 20.5002 13.2664 20.5002 10.2219" fill="#4285F4" />
+									<path d="M10.7027 20C13.4578 20 15.7708 19.1111 17.4602 17.5778L14.2402 15.1332C13.3785 15.7221 12.222 16.1332 10.7027 16.1332C8.0043 16.1332 5.71403 14.3888 4.89761 11.9777L4.77794 11.9877L1.62811 14.3766L1.58691 14.4888C3.26493 17.7555 6.71171 20 10.7027 20Z" fill="#34A853" />
+									<path d="M4.89914 11.9778C4.68372 11.3556 4.55904 10.6889 4.55904 10C4.55904 9.31107 4.68372 8.64444 4.8878 8.02222L4.8821 7.88971L1.69278 5.46245L1.58843 5.51109C0.896838 6.86666 0.5 8.3889 0.5 10C0.5 11.6111 0.896838 13.1333 1.58843 14.4888L4.89914 11.9778" fill="#FBBC05" />
+									<path d="M10.7028 3.86663C12.6189 3.86663 13.9114 4.67773 14.6484 5.35555L17.5283 2.59999C15.7596 0.988889 13.4579 0 10.7028 0C6.71174 0 3.26494 2.24442 1.58691 5.51105L4.88629 8.02218C5.71405 5.61109 8.00433 3.86663 10.7028 3.86663" fill="#EB4335" />
+								</svg>
+								<span>Continue With Google</span>
+							</a>
+							<a href="#" class="sign-in__link">
+								<svg xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 0 22 18" fill="none">
+									<path d="M6.87766 18C4.34592 18 1.98591 17.2636 -0.000488281 15.9931C1.68603 16.1022 4.66235 15.8409 6.51362 14.0751C3.7287 13.9473 2.47276 11.8114 2.30894 10.8986C2.54557 10.9899 3.6741 11.0994 4.31117 10.8438C1.10761 10.0406 0.616151 7.22921 0.725363 6.3712C1.32603 6.79108 2.34535 6.93712 2.74579 6.90061C-0.239346 4.76471 0.834575 1.55172 1.36243 0.858012C3.50468 3.82591 6.71523 5.49279 10.6871 5.58551C10.6122 5.25706 10.5727 4.91511 10.5727 4.56389C10.5727 2.04333 12.61 0 15.1232 0C16.4363 0 17.6195 0.557807 18.4501 1.45005C19.3275 1.24443 20.6481 0.763097 21.2937 0.346856C20.9683 1.51521 19.9552 2.48986 19.3424 2.8511C19.3374 2.83876 19.3475 2.86339 19.3424 2.8511C19.8807 2.76968 21.3372 2.48977 21.9126 2.09939C21.628 2.75576 20.5539 3.84709 19.6725 4.45807C19.8365 11.6907 14.3028 18 6.87766 18Z" fill="#47ACDF" />
+								</svg>
+								<span>Continue With Twitter</span>
+							</a>
+						</div>
+						<div class="sign-in__divider"><span>OR</span></div>
+						<form action="#" class="sign-in__form form-sign-in form" method="POST">
+							<div class="form-sign-in__items">
+								<div class="form-sign-in__item">
+									<div class="form-sign-in__line">
+										<label class="form-sign-in__label label" for="email">User name or email address</label>
+										<input data-required="email" id="email" autocomplete="off" type="email" name="form[email]" data-error="Введіть пошту" class="form-sign-in__input input">
+									</div>
+								</div>
+								<div class="form-sign-in__item">
+									<div class="form-sign-in__line">
+										<label class="form-sign-in__label label" for="form[password]">Password</label>
+										<input data-required="password" autocomplete="off" type="password" name="form[password]" data-error="Введіть пароль" class="form-sign-in__input input">
+										<button type="button" class="form-sign-in__viewpass _icon-eye-hide"></button>
+									</div>
+									<a class="form-sign-in__link link" href="reset-pass.html">Forget your password</a>
+								</div>
+							</div>
+							<button type="submit" class="sign-in__button button">Sign In</button>
+						</form>
+						<span>Don’t have an account? <a class="form-sign-in__link link" href="sign-up-page.html">Sign up</a></span>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__menu menu-footer">
+					<div class="menu-footer__block">
+						<h5 class="menu-footer__title">Need Help</h5>
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">Contact Us</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">Track Order</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">Returns & Refunds</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">FAQ's</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">Career</a>
+							</li>
+						</ul>
+					</div>
+					<div class="menu-footer__block">
+						<h5 class="menu-footer__title">Company</h5>
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">About Us</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">Euphoria Blog</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">Euphoriastan</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">Collaboration</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">Media</a>
+							</li>
+						</ul>
+					</div>
+					<div class="menu-footer__block">
+						<h5 class="menu-footer__title">More Info</h5>
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">Term and Conditions</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">Privacy Policy</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">Shipping Policy</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">Sitemap</a>
+							</li>
+						</ul>
+					</div>
+					<div class="menu-footer__block">
+						<h5 class="menu-footer__title">Location</h5>
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item">
+								<a href="mailto:support@euphoria.in" class="menu-footer__link">support@euphoria.in</a>
+							</li>
+							<li class="menu-footer__item">
+								Eklingpura Chouraha, Ahmedabad Main Road
+							</li>
+							<li class="menu-footer__item">
+								(NH 8- Near Mahadev Hotel) Udaipur, India - 313002
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__body">
+					<div class="footer__social social-footer">
+						<ul class="social-footer__list">
+							<li class="social-footer__item">
+								<a target="_blank" href="#" class="social-footer__link _icon-s-facebook"></a>
+							</li>
+							<li class="social-footer__item">
+								<a target="_blank" href="#" class="social-footer__link _icon-s-instagram"></a>
+							</li>
+							<li class="social-footer__item">
+								<a target="_blank" href="#" class="social-footer__link _icon-s-twitter"></a>
+							</li>
+							<li class="social-footer__item">
+								<a target="_blank" href="#" class="social-footer__link _icon-s-linkedin"></a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__download download-apps">
+						<h5 class="download-apps__title">Download The App</h5>
+						<div class="download-apps__items">
+							<a href="#" class="download-apps__item" target="_blank">
+								<img src="img/google.svg" alt="Google Play">
+							</a>
+							<a href="#" class="download-apps__item" target="_blank">
+								<img src="img/apple.svg" alt="Apple Store">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div data-spollers class="footer__categories popular-categories spollers">
+					<details data-open class="spollers__item">
+						<summary class="popular-categories__title spollers__title">Popular Categories</summary>
+						<div class="popular-categories__body spollers__body">
+							<ul class="popular-categories__list">
+								<li class="popular-categories__item">
+									<a href="#" class="popular-categories__link">Men</a>
+								</li>
+								<li class="popular-categories__item">
+									<a href="#" class="popular-categories__link">Women</a>
+								</li>
+							</ul>
+						</div>
+					</details>
+				</div>
+				<div class="footer__copy">
+					Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20250307120027"></script>
+
+
+</body>
+
+</html>

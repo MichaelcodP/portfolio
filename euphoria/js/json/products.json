@@ -1,0 +1,99 @@
+{
+	"products":[{
+		"id": 1,
+		"favorite": true,
+		"url": "product.html",
+		"image": "img/modules/for-women/01.jpg",
+		"title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, molestias!",
+		"label": "Explore Now!",
+		"price": "$38.00"
+	},{
+		"id": 2,
+		"favorite": false,
+		"url": "product.html",
+		"image": "img/modules/for-women/02.jpg",
+		"title": "consectetur adipisicing elit. Nemo, molestias!",
+		"label": "Explore Now!",
+		"price": "$15.00"
+	},{
+		"id": 3,
+		"favorite": false,
+		"url": "product.html",
+		"image": "img/modules/for-women/03.jpg",
+		"title": "consectetur adipisicing elit. Nemo, molestias!",
+		"label": "Explore Now!",
+		"price": "$45.00"
+	},{
+		"id": 4,
+		"favorite": false,
+		"url": "product.html",
+		"image": "img/modules/for-women/04.jpg",
+		"title": "adipisicing elit. Nemo, molestias!",
+		"label": "Explore Now!",
+		"price": "$55.00"
+	},{
+		"id": 5,
+		"favorite": false,
+		"url": "product.html",
+		"image": "img/modules/for-women/01.jpg",
+		"title": "consectetur adipisicing elit. Nemo, molestias!",
+		"label": "Explore Now!",
+		"price": "$115.00"
+	},{
+		"id": 6,
+		"favorite": true,
+		"url": "product.html",
+		"image": "img/modules/for-women/01.jpg",
+		"title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, molestias!",
+		"label": "Explore Now!",
+		"price": "$38.00"
+	},{
+		"id": 7,
+		"favorite": false,
+		"url": "product.html",
+		"image": "img/modules/for-women/02.jpg",
+		"title": "consectetur adipisicing elit. Nemo, molestias!",
+		"label": "Explore Now!",
+		"price": "$15.00"
+	},{
+		"id": 8,
+		"favorite": false,
+		"url": "product.html",
+		"image": "img/modules/for-women/03.jpg",
+		"title": "consectetur adipisicing elit. Nemo, molestias!",
+		"label": "Explore Now!",
+		"price": "$45.00"
+	},{
+		"id": 9,
+		"favorite": false,
+		"url": "product.html",
+		"image": "img/modules/for-women/04.jpg",
+		"title": "adipisicing elit. Nemo, molestias!",
+		"label": "Explore Now!",
+		"price": "$55.00"
+	},{
+		"id": 10,
+		"favorite": false,
+		"url": "product.html",
+		"image": "img/modules/for-women/01.jpg",
+		"title": "consectetur adipisicing elit. Nemo, molestias!",
+		"label": "Explore Now!",
+		"price": "$115.00"
+	},{
+		"id": 11,
+		"favorite": false,
+		"url": "product.html",
+		"image": "img/modules/for-women/02.jpg",
+		"title": "consectetur adipisicing elit. Nemo, molestias!",
+		"label": "Explore Now!",
+		"price": "$15.00"
+	},{
+		"id": 12,
+		"favorite": false,
+		"url": "product.html",
+		"image": "img/modules/for-women/03.jpg",
+		"title": "consectetur adipisicing elit. Nemo, molestias!",
+		"label": "Explore Now!",
+		"price": "$45.00"
+	}]
+}
